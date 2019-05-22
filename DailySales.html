@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaJam Coffee House</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    table {
+        margin: auto;
+      border: 0px solid #eaeaea;
+      width: 600px;
+      border-spacing:0;
+      }
+      td, th{
+        padding: 5px;
+      font-family: Arial, sans-serif;
+
+      }
+      tr:nth-of-type(odd) {
+        background-color: #DEB887;
+      }
+      tr:nth-of-type(even) {
+        background-color: #FFF8DC;
+      }
+    table{border-collapse: collapse;}
+    table, td, th {border: 3px solid  #FFF8DC;}
+    td.itemcenter{text-align:center:}
+    .input-table{
+     width: 40px;
+     display:inline-block;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+      </header>
+     <div id="leftcolumn">
+      <nav>
+        <ul type="none" >
+            <li><a href="">Daily Sales Report</a></li>
+    	</ul>
+      </nav>
+    </div>
+    <div id="centercolumn">
+     <div class="content">
+      <h2>Click to generate daily report:</h2>
+   <form  action="" method="post">
+       <td><input type="checkbox"  id="javachkb"  name="javachkb" value="1" onchange="location.href='Sales.php'" ><font size="4">Total dollar Sales by products<br></font></td>
+       </tr>
+       <tr>
+         <td><input type="checkbox" id="cafechkb" name="cafechkb" value="1" onchange="location.href='Quantities.php'" ><font size="4">Sales quantities by products categories<br></font></td>
+         </tr>
+   </table>
+ </form>
+  </div>
+ </div>
+
+ <footer>
+ <small><i>Copyright &copy; 2018 JavaJam Coffee House <br>
+ <a href= "mailto: wu@weijie.com">wu@weijie.com</a></i></small>
+ </footer>
+
+  </body>
+</html>
